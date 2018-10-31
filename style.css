@@ -1,0 +1,93 @@
+body {
+  background-color: #D8DBE2;
+  font-family: 'Poor Story', cursive;
+  color:white ;
+  font-size:30px;
+  line-height: 0.8em;
+}
+
+h1 {
+  color: orange;
+  font-size:30px;
+}
+
+h2 {
+  color : black;
+  font-size: 15px;
+}
+
+a {
+  text-decoration:none;
+  color :#FF7B59 ;
+}
+
+a:hover {
+  text-decoration: underline;
+  color:white;
+}
+
+#logo{
+  width:130px;
+  height: 130px;
+  border-radius :50px;
+
+
+}
+
+.java-image{
+  width: 200px;
+  height: 200px;
+  border-radius :10px;
+
+}
+
+.container{
+width: 600px;
+  margin: 0 auto;
+}
+
+
+.container-section{
+  width: 701px;
+  margin : 20px;
+  background-color: grey;
+  border-radius :50px;
+  box-shadow :28px 12px 43px grey;
+  border: solid;
+  padding :30px;
+  text-align: center;
+  align-items: center;
+
+}
+
+.btn-red{
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+@media (max-width: 360px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+

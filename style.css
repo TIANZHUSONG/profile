@@ -13,12 +13,12 @@ h1 {
 
 h2 {
   color : black;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 a {
   text-decoration:none;
-  color :#FF7B59 ;
+  color :#FCFFF7 ;
 }
 
 a:hover {
